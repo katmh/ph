@@ -3,12 +3,18 @@
     <head>
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i|Roboto+Mono:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i|Roboto+Mono:700" rel="stylesheet">
     </head>
 
     <body>
+        <script src="https://unpkg.com/scrollreveal"></script>
+
         <div class="container">
             {{ content }}
         </div>
+
+        <script>
+        ScrollReveal().reveal('*');
+        </script>
     </body>
 </html>
