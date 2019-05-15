@@ -67,3 +67,37 @@ footer {
 header, footer {
     text-align: center;
 }
+
+.image-container {
+    max-width: 100%;
+}
+
+.image-container.left {
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.image-container.right {
+    float: right;
+    max-width: 350px;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+.caption {
+    display: block;
+    margin-top: 0.5rem;
+    line-height: 125%;
+    font-family: Lato, sans-serif;
+    font-size: 1.15rem;
+    color: #392d34;
+}
